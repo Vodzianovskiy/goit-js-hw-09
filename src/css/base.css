@@ -27,6 +27,43 @@ body {
 main {
   flex-grow: 1;
 }
+
 main:has(.back-link) {
   text-align: center;
+}
+
+.go-back {
+  color: black;
+  background-color: blue;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  font-size: 4rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #007cf0 0%, #00dfd8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* for Firefox */
+  text-fill-color: transparent;
+  /* for newer syntax */
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 auto;
+  filter: drop-shadow(0 4px 24px rgba(0, 0, 0, 0.15));
+  animation: welcome-gradient 4s linear infinite alternate;
+}
+
+@keyframes welcome-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
 }
