@@ -1,0 +1,88 @@
+.box-reg {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    border: 2px solid black;
+    background: #d7a7a7;
+    border-radius: 8px;
+    border-radius: 8px;
+}
+
+.feedback-form {}
+
+.em {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.in-em {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    min-width: 360px;
+    height: 40px;
+}
+
+.in-em:hover {
+    border: 1px solid #000;
+}
+
+.in-em:active {
+    outline: none;
+    box-shadow: none;
+    border-color: #808080;
+}
+
+.em-mas {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.in-messeg {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    min-width: 360px;
+    height: 80px;
+}
+
+.apply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background: #4e75ff;
+    border: none;
+    outline: none;
+}
+
+.apply:hover {
+    background: #6c8cff;
+}

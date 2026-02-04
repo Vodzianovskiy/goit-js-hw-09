@@ -32,10 +32,7 @@ main:has(.back-link) {
   text-align: center;
 }
 
-.go-back {
-  color: black;
-  background-color: blue;
-}
+
 
 .welcome {
   display: flex;
